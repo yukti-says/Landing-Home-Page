@@ -221,12 +221,13 @@ nav i{
     nav h2 {
         font-size: 5vw;
     }
-
+ 
     .nav-part2{
         display: none;
         flex-direction: column;
         gap: 2w;
-        background: hsl(0, 95%, 8%);
+        background: hsl(0, 11%, 91%);
+        color: #0e0202;
         position: absolute;
         top: 50px;
         right: 0;
@@ -243,6 +244,9 @@ nav i{
         font-size: 4vw;
         display: block;
          margin: 1vw 0;
+         color: #0e0202;
+         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
     }
 
     nav i {
