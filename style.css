@@ -66,6 +66,7 @@ nav i{
    
     font-weight: 800;
     display: none;
+    cursor: pointer;
 }
 
 
@@ -221,14 +222,34 @@ nav i{
         font-size: 5vw;
     }
 
+    .nav-part2{
+        display: none;
+        flex-direction: column;
+        gap: 2w;
+        background: hsl(0, 95%, 8%);
+        position: absolute;
+        top: 50px;
+        right: 0;
+        width: 100%;
+        padding: 2vw 0;
+        z-index: 10;
+    }
+
+    .nav-part2.active{
+        display: flex;
+    }
+
     .nav-part2 h4 {
         font-size: 4vw;
-        display: none;
+        display: block;
+         margin: 1vw 0;
     }
 
     nav i {
         display: block;
         font-size: 4.5vw;
+         cursor: pointer;
+        z-index: 20;
     }
 
     .content {
