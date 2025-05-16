@@ -48,3 +48,4 @@ index.html style.css script.js image.jpeg README.md
 ---
 
 **This project helped me gain hands-on experience with responsive web design and modern front-end development techniques.**
+
